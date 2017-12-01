@@ -1,7 +1,7 @@
 
 This is a simple Python package used for the paper "Building Energy Model Reduction using Model-Cluster-Reduce Pipeline" published on Journal of Building Performance Simulation. It is used to perform model order reduction on EnergyPlus models. This readme includes a simple introduction to how to use this code. Other packages required for this tool are: eppy, sklearn, pandas and numpy.
 
-This package does not include codes to make the reduced model 100% ready for simulation. Other modifications such as HVAC system node elimination may required. It is recommend to use HVAC template for the reduced model in this case. Future updates will improve the functionality of this tool.
+This package does not make the reduced model 100% ready for simulation. Other modifications such as HVAC system node elimination may required. It is recommend to use HVAC template for the reduced model in this case. Future updates will improve the functionality of this tool.
 
 First we import and initiate the ModelClusterReduce class. Note a default .idd file for EnergyPlus 8.5 is provided. However, for newer EnergyPlus versions, .idd file may need to be manually defined.
 
